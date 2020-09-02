@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    background-color: #dadada;
+}
+
+.container > div {
+    height: 40px;
+    width: 40px;
+}
+
+.bomb {
+    background-color: #333;
+}
+
+.valid {
+    background-color: #999;
+}
+
+.checked {
+    background-color: red;
+}
